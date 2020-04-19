@@ -1,0 +1,7 @@
+Platform: CUDA
+Precision: mixed
+
+Test: gbsa
+Step Size: 2 fs
+Integrated 358896 steps in 55.8623 seconds
+1110.18 ns/day

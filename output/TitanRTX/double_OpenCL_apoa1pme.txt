@@ -1,0 +1,7 @@
+Platform: OpenCL
+Precision: double
+
+Test: apoa1pme
+Step Size: 2 fs
+Integrated 1606 steps in 53.2357 seconds
+5.21298 ns/day

@@ -1,0 +1,7 @@
+Platform: CUDA
+Precision: double
+
+Test: rf
+Step Size: 2 fs
+Integrated 14637 steps in 52.7623 seconds
+47.9372 ns/day

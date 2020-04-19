@@ -1,0 +1,7 @@
+Platform: CUDA
+Precision: mixed
+
+Test: apoa1rf
+Step Size: 2 fs
+Integrated 67076 steps in 60.6688 seconds
+191.049 ns/day

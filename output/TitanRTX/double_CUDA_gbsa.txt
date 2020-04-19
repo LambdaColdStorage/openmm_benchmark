@@ -1,0 +1,15 @@
+Platform: CUDA
+Precision: double
+
+Test: gbsa
+Step Size: 2 fs
+Traceback (most recent call last):
+  File "benchmark.py", line 161, in <module>
+    runOneTest(options.test, options)
+  File "benchmark.py", line 118, in runOneTest
+    time = timeIntegration(context, steps, initialSteps)
+  File "benchmark.py", line 11, in timeIntegration
+    context.getIntegrator().step(initialSteps) # Make sure everything is fully initialized
+  File "/home/ubuntu/anaconda3/envs/venv_openmm/lib/python3.7/site-packages/simtk/openmm/openmm.py", line 19017, in step
+    return _openmm.LangevinIntegrator_step(self, steps)
+Exception: Error loading CUDA module: CUDA_ERROR_INVALID_PTX (218)

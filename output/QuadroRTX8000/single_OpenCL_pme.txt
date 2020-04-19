@@ -1,0 +1,7 @@
+Platform: OpenCL
+Precision: single
+
+Test: pme (cutoff=0.9)
+Step Size: 2 fs
+Integrated 144215 steps in 57.4587 seconds
+433.709 ns/day

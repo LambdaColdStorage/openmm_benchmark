@@ -1,0 +1,7 @@
+Platform: OpenCL
+Precision: double
+
+Test: gbsa
+Step Size: 2 fs
+Integrated 11556 steps in 57.8837 seconds
+34.4981 ns/day

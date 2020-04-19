@@ -1,0 +1,7 @@
+Platform: CUDA
+Precision: single
+
+Test: pme (cutoff=0.9)
+Step Size: 2 fs
+Integrated 178706 steps in 57.815 seconds
+534.124 ns/day

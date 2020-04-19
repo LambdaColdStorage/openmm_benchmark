@@ -1,0 +1,7 @@
+Platform: CUDA
+Precision: double
+
+Test: apoa1ljpme
+Step Size: 2 fs
+Integrated 1662 steps in 59.8551 seconds
+4.79815 ns/day

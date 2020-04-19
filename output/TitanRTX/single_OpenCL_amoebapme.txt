@@ -1,0 +1,13 @@
+Platform: OpenCL
+Precision: single
+
+Test: amoebapme (epsilon=1e-05)
+Step Size: 2 fs
+Traceback (most recent call last):
+  File "benchmark.py", line 161, in <module>
+    runOneTest(options.test, options)
+  File "benchmark.py", line 111, in runOneTest
+    context = mm.Context(system, integ, platform, properties)
+  File "/home/ubuntu/anaconda3/envs/venv_openmm/lib/python3.7/site-packages/simtk/openmm/openmm.py", line 18608, in __init__
+    this = _openmm.new_Context(*args)
+Exception: Specified a Platform for a Context which does not support all required kernels

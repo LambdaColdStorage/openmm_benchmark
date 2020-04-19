@@ -1,0 +1,7 @@
+Platform: CUDA
+Precision: mixed
+
+Test: amoebagk (epsilon=1e-05)
+Step Size: 2 fs
+Integrated 2918 steps in 57.4755 seconds
+8.77296 ns/day

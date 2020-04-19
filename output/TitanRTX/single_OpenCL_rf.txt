@@ -1,0 +1,7 @@
+Platform: OpenCL
+Precision: single
+
+Test: rf
+Step Size: 2 fs
+Integrated 194864 steps in 63.6197 seconds
+529.278 ns/day
