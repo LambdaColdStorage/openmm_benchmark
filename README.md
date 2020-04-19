@@ -1,4 +1,14 @@
-# openmm_benchmark
+# OpenMM Benchmark
+
+### Goal
+
+This repo benchmarks the performance of serveral molecular simulation task on different GPUs. We use the benchmark [script](https://github.com/openmm/openmm/blob/master/examples/benchmark.py) of the [OpenMM](https://github.com/openmm/openmm) library and run simulation with single/mixed/double precisions for eight different tasks, with both CUDA and OpenCL backend. 
+
+Results can be found in these CSV files: 
+* [Single Precision](https://github.com/lambdal/openmm_benchmark/blob/master/single_openmm_benchmark.csv)
+* [Double Precision](https://github.com/lambdal/openmm_benchmark/blob/master/double_openmm_benchmark.csv)
+* [Mixed Precision](https://github.com/lambdal/openmm_benchmark/blob/master/mixed_openmm_benchmark.csv).
+
 
 ### Installation
 
@@ -35,7 +45,7 @@ conda install pandas=1.0.3
 ### Run Benchmark
 
 ```
-git clone https://github.com/chuanli11/openmm_benchmark.git
+git clone https://github.com/lambdal/openmm_benchmark.git
 
 cd openmm_benchmark
 
